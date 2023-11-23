@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Desafio de Projeto</title>
+</head>
+<body>
+    <header>
+        <img class="img1" src="Imagens/png-transparent-pixel-art-design-game-angle-simple-thumbnail (1).png" alt="pixel_espada">
+        <h1 class="title">Calculadora de Partidas Rankeadas</h1>
+        <img class="img2" src="Imagens/png-transparent-pixel-art-design-game-angle-simple-thumbnail.png" alt="pixel_espada">
+    </header>
+    <hr class="hr1">
+    <section id="content" class="content">
+        <h3 class="title2">Olá usuário, seja bem-vindo a calculadora de partidas rankeadas!</h3>
+        <hr class="hr2">
+        <br>
+        <h5>Digite no campo abaixo a quantidade de <p class="victory">VITÓRIAS</p> do seu herói:</h5>
+        <input class="input" id="id1"  type="number" min="0" required><br>
+        <br>
+        <h5>Digite no campo abaixo a quantidade de <p class="defeat">DERROTAS</p> do seu herói:</h5>
+        <input class="input" id="id2"  type="number" min="0" required>
+        <h5 id="demo"></h5>
+    </section>
+    <button id="button" onclick="check()">Calcular</button>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
