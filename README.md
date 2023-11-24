@@ -1,4 +1,4 @@
-<h1 align="center"> 🧮 Calculadora-de-Partidas-Rankeadas </h1>
+<h1 align="center"> 🧮 Calculadora de Partidas Rankeadas 🧮</h1>
 
 > Desafio de Projeto DIO - Calculadora de Partidas Rankeadas
 
